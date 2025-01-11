@@ -4,12 +4,14 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
+        <img src="/violets_small.svg" alt="wild-violet-icon" />
+        <h1>
           Wild Violet Counseling
-        </p>
+        </h1>
         <p>
           Coming Soon
         </p>
+      
       </header>
     </div>
   );
