@@ -4,6 +4,8 @@
     flex-direction: row ;
     align-items: center;
     justify-content: space-evenly;
+    /* background-image: url("./images/");
+    background-size: cover; */
 }
 
 .headshot {
