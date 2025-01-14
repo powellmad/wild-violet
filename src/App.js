@@ -1,10 +1,15 @@
 import './App.css';
-import Footer from "./components/Footer.jsx"
+import React from "react"
+// import Route from "react-router-dom"
+import Welcome from "./Welcome"
+import Footer from "./components/Footer"
+import Navbar from "./components/Navbar"
 
 function App() {
 
   return (
     <div className="App">
+      <Navbar />
       <header className="App-header">
         <img src="/violets_xsmall.svg" alt="wild-violet-icon" />
         <h1>
@@ -15,6 +20,8 @@ function App() {
         </p>
       
       </header>
+      <Welcome />
+
       <Footer />
     </div>
   );
