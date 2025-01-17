@@ -1,9 +1,9 @@
 import './App.css';
 import React from "react"
 import ComingSoon from "./ComingSoon"
-import Welcome from "./Welcome"
-import Footer from "./components/Footer"
-import Navbar from "./components/Navbar"
+// import Welcome from "./Welcome"
+// import Footer from "./components/Footer"
+// import Navbar from "./components/Navbar"
 
 function App() {
 
