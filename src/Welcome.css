@@ -1,5 +1,6 @@
 .welcome {
     height: 100vh;
+    font-family: "Inter", sans-serif;
     display: flex;
     flex-direction: row ;
     align-items: center;
