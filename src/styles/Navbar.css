@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    padding: 6px;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    width: 60px;
+    padding-right: 12px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding-right: 24px;
+}
+
+li {
+    padding-right: 24px;
+}
