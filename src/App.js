@@ -1,9 +1,10 @@
 import './App.css';
 import React from "react"
 import ComingSoon from "./ComingSoon"
-// import Welcome from "./Welcome"
+import Welcome from "./Welcome"
+import {Route} from "react-router-dom"
 // import Footer from "./components/Footer"
-// import Navbar from "./components/Navbar"
+import Navbar from "./components/Navbar"
 
 function App() {
 
@@ -11,9 +12,9 @@ function App() {
     <div>
       {/* <Navbar />
       <Welcome />
-      <Footer /> */}
-      <ComingSoon />
-    </div>     
+      <Footer />
+      <ComingSoon /> */}
+    </div>
   ) 
 };
 
