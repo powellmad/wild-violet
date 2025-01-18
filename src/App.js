@@ -1,18 +1,15 @@
 import './App.css';
 import React from "react"
-import ComingSoon from "./ComingSoon"
-// import Welcome from "./Welcome"
-// import Footer from "./components/Footer"
+import Welcome from "./components/Welcome"
+import Footer from "./components/Footer"
 // import Navbar from "./components/Navbar"
 
 function App() {
 
   return (
     <div>
-      {/* <Navbar />
       <Welcome />
-      <Footer /> */}
-      <ComingSoon />
+      <Footer />
     </div>     
   ) 
 };

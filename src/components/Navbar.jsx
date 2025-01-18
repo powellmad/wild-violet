@@ -5,15 +5,17 @@ function Navbar () {
     return (
         <nav className="navbar">
             <header className="header">
-                <img src="/violets_xsmall.svg" alt="wild violet logo of two wild violets"/>
+                {/* <img src="/violets_xsmall.svg" alt="wild violet logo of two wild violets"/> */}
                 <h3>Wild Violet Counseling</h3>
             </header>
-            <ul>
-                <li>Welcome</li>
-                <li>About</li>
-                <li>Services</li>
-                <li>Contact</li>
+            <ul className="container">
+                <li><h4>About</h4></li>
+                <li><h4>Services</h4></li>
+                <li><h4>Current Clients</h4></li>
+                <li><h4>Contact</h4></li>
+                <button className="button">Get Started</button>
             </ul>
+
         </nav>
     )
 }

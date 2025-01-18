@@ -29,7 +29,16 @@
 }
 
 h1 {
+  font-family: Ledger, serif;
   font-size: 2rem;
+}
+
+h2 {
+  font-family: Ledger, serif;
+}
+
+h3 {
+  font-family: Ledger, serif;
 }
 
 @keyframes App-logo-spin {
