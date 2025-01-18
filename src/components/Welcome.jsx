@@ -1,5 +1,4 @@
 import '../styles/Welcome.css';
-import image from "../images/lauren.JPG"
 import Navbar from "./Navbar"
 
 function Welcome() {
