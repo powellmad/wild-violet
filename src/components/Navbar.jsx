@@ -9,13 +9,13 @@ function Navbar () {
                 <h3>Wild Violet Counseling</h3>
             </header>
             <ul className="container">
-                <li><h4>About</h4></li>
+                {/* <li><h4>About</h4></li>
                 <li><h4>Services</h4></li>
                 <li><h4>Current Clients</h4></li>
                 <li><h4>Contact</h4></li>
-                <button className="button">Get Started</button>
+                <button className="button">Get Started</button> */}
+                <p>More Coming Soon</p>
             </ul>
-
         </nav>
     )
 }

@@ -1,0 +1,20 @@
+
+.introduction {
+    height: 100vh;
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #F8F9F8;
+    color: #141414;
+    padding: 24px;
+}
+
+.headshot {
+    width: 400px;
+    padding: 24px;
+}
+
+.introduction button {
+    margin-top: 24px;
+}

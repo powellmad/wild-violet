@@ -13,20 +13,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
 
 h1 {
   font-family: Ledger, serif;
@@ -48,4 +34,30 @@ h3 {
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.h2 {
+  font-size: 2.2rem;
+}
+
+.intro {
+  max-width: 600px;
+}
+
+p {
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+
+.display {
+  font-size: 4rem;
+  margin: 0;
 }

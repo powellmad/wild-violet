@@ -1,7 +1,8 @@
 import './App.css';
 import React from "react"
 import Welcome from "./components/Welcome"
-import Footer from "./components/Footer"
+import Intro from "./components/Intro"
+import Contact from "./components/Contact"
 // import Navbar from "./components/Navbar"
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
   return (
     <div>
       <Welcome />
-      <Footer />
+      <Intro />
+      <Contact />
     </div>     
   ) 
 };
