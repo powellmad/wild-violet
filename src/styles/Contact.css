@@ -8,6 +8,11 @@
     padding: 24px 24px 36px;
 }
 
+.pride-flag {
+    padding: 12px;
+    width: 80px;
+}
+
 .contact {
     display: flex;
     flex-direction: column ;
