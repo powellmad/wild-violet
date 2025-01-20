@@ -14,7 +14,6 @@ function Navbar () {
                 <li><h4>Current Clients</h4></li>
                 <li><h4>Contact</h4></li>
                 <button className="button">Get Started</button> */}
-                <p>More Coming Soon</p>
             </ul>
         </nav>
     )
