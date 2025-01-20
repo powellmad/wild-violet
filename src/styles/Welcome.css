@@ -1,19 +1,15 @@
 .landing {
     min-height: 95vh;
-    /* background-image: url("../images/wild-flowers.jpg"); */
     background-image: 
     linear-gradient(
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, .4)
     ),
     url("../images/violets-waterfall.jpg");
-    /* linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url("../images/wild-flowers.jpg"); */
     background-size: cover;
-    color: white;
+    color: #F8F9F8;
+    background-position: center center;
+    width: 100%;
 }
 
 .welcome {
@@ -24,4 +20,29 @@
     justify-content: center;
     min-height: 60vh;
     padding-right: 8%;
+    text-align: right;
+
+}
+
+@media (max-width: 480px) {
+  .landing {
+      min-height: 70vh;  
+    }
+
+  .welcome .h1 {
+    font-size: 30px;
+  }
+
+  .welcome .display {
+    font-size: 42px;
+  }
+
+  .welcome .h3 {
+    font-size: 18px;
+  }
+
+  .welcome {
+    padding: 12px;
+  }
+
 }

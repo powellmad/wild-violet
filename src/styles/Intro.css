@@ -17,3 +17,28 @@
 .introduction button {
     margin-top: 24px;
 }
+
+@media (max-width: 1024px) {
+    .introduction {
+        flex-direction: column;
+      }
+}
+
+@media (max-width: 768px) {
+    .introduction .h1 {
+        font-size: 1.8rem;
+    }
+
+    .introduction .h2 {
+        font-size: 1.3rem;
+    }
+
+    .introduction p {
+        font-size: 18px;
+    }
+
+    .headshot {
+        width: 80%;
+        text-align: center;
+        }
+  }
