@@ -6,6 +6,7 @@ function Navbar () {
         <nav className="navbar">
             <header className="header">
                 {/* <img src="/violets_xsmall.svg" alt="wild violet logo of two wild violets"/> */}
+                {/* <i class="fas fa-home"></i> */}
                 <h3>Wild Violet Counseling</h3>
             </header>
             <ul className="container">

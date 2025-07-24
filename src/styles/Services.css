@@ -1,20 +1,91 @@
-.services {
-    padding: 36px 140px 100px;
+/* Main Section */
+.section-with-cards {
     display: flex;
     flex-direction: column;
-    background-color: #d5dccf;
-    color: #141414
-}
-.cards {
+    padding: 20px 60px 60px;
+  }
+  
+  /* Main Header */
+  .main-header {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* First Text Section */
+  .text-section {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+  
+  .section-header h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #6D3A9A
+  }
+  
+  /* Paragraph Text */
+  .text-section p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  /* Second Section with Cards */
+  .cards-section {
+    display: flex;
+    flex-wrap: wrap;  /* Allows the cards to wrap onto the next row when necessary */
+    gap: 20px;  /* Space between cards */
     justify-content: space-between;
-}
-
-.service-card {
-    background-color: #ffffff;
-    border-radius: 18px;
-    padding: 0 24px 12px;
-    width: 280px;
-}
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(25% - 20px);  /* 4 cards in a row, minus gap between them */
+    padding: 16px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-sizing: border-box;  /* Ensures padding and border are included in width calculation */
+  }
+  
+  .card-header {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .card-body {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  /* Responsive: Stack cards in a single column for small screens */
+  @media (max-width: 1200px) {
+    .card {
+      width: calc(33.33% - 20px);  /* 3 cards in a row */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      width: calc(50% - 20px);  /* 2 cards in a row */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card {
+      width: 100%;  /* Stack all cards vertically on smaller screens */
+    }
+  }
+  
