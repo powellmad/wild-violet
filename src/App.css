@@ -15,16 +15,21 @@
 
 
 h1 {
-  font-family: Ledger, serif;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
   font-size: 2rem;
 }
 
 h2 {
-  font-family: Ledger, serif;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+
 }
 
 h3 {
-  font-family: Ledger, serif;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+
 }
 
 @keyframes App-logo-spin {
