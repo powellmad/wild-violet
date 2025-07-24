@@ -9,7 +9,6 @@ function Contact() {
             <h3>Lauren Shuler, LCSW</h3>      
             <p>lauren@wildvioletcounseling.com</p>   
             <p>Phone: (615) 200-0576</p>   
-            <p>Fax: (615)717-7301</p>  
             {/* <img className="pride-flag" src={image} alt="inclusive pride flag"/> */}
         </section>
         {/* <section>
