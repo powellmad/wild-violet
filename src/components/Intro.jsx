@@ -4,13 +4,12 @@ import image from "../images/lauren.JPG"
 function Intro() {
     return (
             <section className="introduction">
-                <header className="intro">
-                    <h2 className="h1">I'm happy you're here.</h2>
-                    <h3 className="h2">I'm Lauren, a licensed mental health professional working in Tennessee</h3>
-                    <p>I am a long term, relational therapist who supports people aged 16 and older through the ups and downs of their unique journey. My goal is to collaborate with you to create a safe and constructive environment in order to know the previously unknowable.</p>
-                    <p>I specialize in anxiety, depression, trauma, eating disorders, identity concerns, and the perinatal time period.  I provide affirming care to members of the LGBTQ+ community. As a lesbian, I share an implicit understanding with those in the queer community. My approach to trauma treatment is gentle and narrative based, while incorporating stabilizing skills and nervous system regulation. </p>
-                    {/* <button className="button">About Me</button> */}
-                </header>
+                <div className="intro-text">
+                    <h2>I'm happy you're here.</h2>
+                    <h4 className="mb-6">I'm Lauren, a licensed mental health professional working in Tennessee</h4>
+                    <p>I offer compassionate, inclusive therapy for those exploring identity, relationships, and emotional well-being. Our work is rooted in a psychodynamic perspective, helping you understand the deeper patterns that shape your thoughts and feelings. </p> 
+                    <p>I specialize in LGBTQ+ mental health, perinatal support, and eating disorder treatment. This is a safe, affirming space to heal, reflect, and grow. If you're seeking relief, insight, or a deeper connection to yourself,  reach out and schedule a free consultation.  </p>
+                </div>
                 <div>
                     <img className="headshot" src={image} alt="headshot of lauren wearing pink rim glasses in a green sweater"/>
                 </div>            

@@ -1,4 +1,4 @@
-.landing {
+.background-image {
     min-height: 95vh;
     background-image: 
     linear-gradient(
@@ -13,37 +13,15 @@
 }
 
 .welcome {
-  font-family: Poppins, sans-serif;
-  font-weight: 600;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: center;
-    min-height: 60vh;
-    padding-right: 8%;
-    text-align: right;
-
+  max-width: 1400px;
+  min-height: 70vh;
+  gap: 0.8rem;
+  padding: 32px;
+  text-align: right;
 }
 
 @media (max-width: 480px) {
-  .landing {
-      min-height: 70vh;  
+  .background-image {
+      min-height: 20vh;  
     }
-
-  .welcome .h1 {
-    font-size: 30px;
-  }
-
-  .welcome .display {
-    font-size: 42px;
-  }
-
-  .welcome .h3 {
-    font-size: 18px;
-  }
-
-  .welcome {
-    padding: 12px;
-  }
-
 }
