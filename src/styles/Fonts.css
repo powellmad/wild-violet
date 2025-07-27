@@ -1,0 +1,360 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* CSS Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Root Variables */
+:root {
+  --header-font: 'Poppins', sans-serif;
+  --body-font: 'Inter', sans-serif;
+  --text-primary: #1a1a1a;
+  --text-secondary: #6b7280;
+  --text-muted: #9ca3af;
+  --text-purple: #6D3A9A;
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.7;
+}
+
+/* Base Body Styles */
+body {
+  font-family: var(--body-font);
+  font-size: 16px;
+  line-height: var(--line-height-normal);
+  color: var(--text-primary);
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Heading Styles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--header-font);
+  font-weight: 600;
+  line-height: var(--line-height-tight);
+  color: var(--text-primary);
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+h3 {
+  font-size: clamp(1.25rem, 3vw, 2rem);
+  font-weight: 600;
+}
+
+h4 {
+  font-size: clamp(1.125rem, 2.5vw, 1.5rem);
+  font-weight: 500;
+}
+
+h5 {
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  font-weight: 500;
+}
+
+h6 {
+  font-size: clamp(0.875rem, 1.5vw, 1rem);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Paragraph Styles */
+p {
+  font-family: var(--body-font);
+  font-size: 1rem;
+  line-height: var(--line-height-relaxed);
+  margin-bottom: 1em;
+  color: var(--text-primary);
+}
+
+/* Text Size Variations */
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+
+.text-display {
+  font-size: 4rem;
+}
+
+/* Lead Text */
+.lead {
+  font-size: 1.25rem;
+  line-height: var(--line-height-relaxed);
+  font-weight: 300;
+  color: var(--text-secondary);
+  margin-bottom: 1.5em;
+}
+
+/* Text Colors */
+.text-primary {
+  color: var(--text-primary);
+}
+
+.text-secondary {
+  color: var(--text-secondary);
+}
+
+.text-muted {
+  color: var(--text-muted);
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.text-black {
+  color: #1a1a1a;
+}
+
+.text-gray {
+  color: #6b7280;
+}
+
+.text-purple {
+  color: #6D3A9A;
+}
+
+/* Font Weights */
+.font-light {
+  font-weight: 300;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-extrabold {
+  font-weight: 800;
+}
+
+.font-black {
+  font-weight: 900;
+}
+
+/* Text Alignment */
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+/* Text Transform */
+.uppercase {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+/* Links */
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+a:focus {
+  outline: 2px solid #80bdff;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Lists */
+ul, ol {
+  font-family: var(--body-font);
+  margin-bottom: 1em;
+  padding-left: 1.5em;
+}
+
+li {
+  margin-bottom: 0.25em;
+  line-height: var(--line-height-normal);
+}
+
+/* Blockquotes */
+blockquote {
+  font-family: var(--body-font);
+  font-size: 1.125rem;
+  font-style: italic;
+  border-left: 4px solid #e5e7eb;
+  padding-left: 1.5rem;
+  margin: 1.5rem 0;
+  color: var(--text-secondary);
+}
+
+blockquote p {
+  margin-bottom: 0.5em;
+}
+
+blockquote cite {
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+/* Code and Pre */
+code {
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: 0.875rem;
+  background-color: #f3f4f6;
+  padding: 0.125rem 0.25rem;
+  border-radius: 3px;
+  color: #dc2626;
+}
+
+pre {
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: 0.875rem;
+  background-color: #1f2937;
+  color: #f9fafb;
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+pre code {
+  background: none;
+  padding: 0;
+  color: inherit;
+}
+
+/* Special Text Styles */
+.highlight {
+  background-color: #fef3c7;
+  padding: 0.125rem 0.25rem;
+  border-radius: 3px;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+  color: var(--text-muted);
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.no-decoration {
+  text-decoration: none;
+}
+
+/* Display Text (Large decorative text) */
+.display-1 {
+  font-family: var(--header-font);
+  font-size: clamp(3rem, 8vw, 6rem);
+  font-weight: 800;
+  line-height: 0.9;
+  letter-spacing: -0.03em;
+}
+
+.display-2 {
+  font-family: var(--header-font);
+  font-size: clamp(2.5rem, 7vw, 5rem);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  
+  .lead {
+    font-size: 1.125rem;
+  }
+  
+  blockquote {
+    font-size: 1rem;
+    padding-left: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.75em;
+  }
+  
+  p {
+    margin-bottom: 1.25em;
+  }
+}

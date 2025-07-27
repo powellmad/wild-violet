@@ -1,39 +1,39 @@
-.contact-footer {
+/* Section Container */
+.section {
+    padding: 60px 32px;
+  }
+
+  /* Left text section */
+  .text-section {
+    flex: 1;
+    padding: 0px 80px;
+  }
+  
+  /* Right section with icon and text rows */
+  .icon-text-section {
+    flex: 1;
+  }
+  
+  .icon-text-row {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
-    background-color: #ebebeb;
-    color: #1f1f1f;
-    padding: 24px 24px 36px;
-}
+  }
 
-.pride-flag {
-    padding: 12px;
-    width: 80px;
-}
-
-.contact {
+  .icon-text-slat {
     display: flex;
-    flex-direction: column ;
-    align-items: center;
-    text-align: center;
-}
+    flex-direction: column;
+    align-items: space-between;
+    gap: 12px;
+  }
 
-.contact h2 {
-    margin-bottom: 6px;
-}
+  @media (max-width: 768px) {
 
-.contact p {
-    font-size: 18px;
-    margin: 6px;
-}
+    .text-section {
+        padding: 0px;
+    }
 
-ul {
-    list-style-type: none;
-}
-
-.links li {
-    font-size: 18px;
-    margin-bottom: 12px;
-}
+    .contact {
+        flex-direction: column;
+        justify-content: center;
+    }
+  }
