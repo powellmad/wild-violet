@@ -24,7 +24,7 @@ function Contact() {
                             <h6 className="text-purple">Phone</h6 >
                         </div>
                         <p className="body-small m-0">
-                            (555) 123-4567
+                        (615) 200-0576
                       </p>
                         <p className="text-sm text-gray">
                             Call or text for appointments
