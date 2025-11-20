@@ -34,7 +34,7 @@ function Contact() {
                         {/* <i class="fas fa-envelope"></i> */}
                         <h6 className="text-purple">Email</h6 >
                     </div>
-                    <p>lauren@wildvioletcounceling.com</p>
+                    <p>lauren@wildvioletcounseling.com</p>
                 </div>
             </div>
 
